@@ -33,9 +33,11 @@ class Point {
 
 public class Runner3 {
     public static void main(String args[]) {
+    System.out.println("-----1-----");
     Point p1 = new Point();
     p1.movePoint(2, 3);
     p1.display();
+    System.out.println("-----2-----");
     Point p2 = new Point();
     p2.movePoint(2, 3);
     p2.display();

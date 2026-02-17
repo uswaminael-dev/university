@@ -18,8 +18,10 @@ class MyRectangle{
 
 public class Runner2 {
     public static void main (String [] args){
+        System.out.println("-----1-----");
         MyRectangle rect = new MyRectangle();
         System.out.println(rect.CalculateArea());
+        System.out.println("-----2-----");
         MyRectangle rect1 = new MyRectangle (10, 20);
         System.out.println(rect1.CalculateArea());
     }
