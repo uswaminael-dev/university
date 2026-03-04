@@ -69,7 +69,5 @@ public class SmartDevice {
         System.out.println("Battery Level: " + batteryLevel);
     }
 
-    public void display(){
-
-    }
+    
 }

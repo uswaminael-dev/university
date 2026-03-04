@@ -1,3 +1,4 @@
+package Lab01;
 class Date{
     public String month;
     public int day;

@@ -1,3 +1,4 @@
+package Lab01;
 class Time{
     public int hour;
     public int minutes;

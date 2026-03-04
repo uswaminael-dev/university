@@ -1,3 +1,4 @@
+package Lab01;
 import java.util.Scanner;
 class CarPart{
     private String modelNumber;
@@ -25,5 +26,6 @@ public class CarPartRunner {
         String z = sc.nextLine();
         car1.setParameter(x , y , z);
         car1.display();
+        sc.close();
     }
 }

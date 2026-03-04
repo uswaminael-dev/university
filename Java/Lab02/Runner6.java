@@ -1,3 +1,4 @@
+package Lab02;
 class Distance{
     double feet;
     double inches;

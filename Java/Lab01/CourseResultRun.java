@@ -1,3 +1,4 @@
+package Lab01;
 class CourseResult {
     public String studentName;
     public String courseName;

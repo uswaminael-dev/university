@@ -1,3 +1,4 @@
+package Lab01;
 import java.util.*;
 class Student {
     public String studentName ;
@@ -7,7 +8,7 @@ class Student {
     
     String [] courses = new String [5];
     public void display(){
-        System.out.println("Name: " + studentName + "\nRegistration No. : " + registrationNo + "\nCourse: " + program + "\nSemester: " + semester + "Registered Courses : " );
+        System.out.println("Name: " + studentName + "\nRegistration No. : " + registrationNo + "\nCourse: " + program   );
     }
     
 
@@ -26,14 +27,14 @@ public class StudentTest{
     static Scanner sc = new Scanner (System.in);
     public static void main(String [ ] args){
      Student student1 = new Student();
-    System.out.println("Enter your name: ");
+    System.out.print("Enter your name: ");
     student1.studentName = sc.nextLine();
-    System.out.println("Enter your Registration No. : ");
+    System.out.print("Enter your Registration No. : ");
     student1.registrationNo = sc.nextLine();
-    System.out.println("Enter Your program: ");
+    System.out.print("Enter Your program: ");
     student1.program = sc.nextLine();
     student1.display();
-    System.out.println("Choose one of the courses: \n1. DSA \n2. ISL \n3. Discrete \n4. Sociology \nMaths");
+    System.out.println("Choose one of the courses: \n1. DSA \n2. ISL \n3. Discrete \n4. Sociology \n5.Maths");
     student1.courses[0]=sc.nextLine();
     student1.courses[1]=sc.nextLine();
     student1.courses[2]=sc.nextLine();

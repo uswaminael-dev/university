@@ -1,3 +1,4 @@
+package Lab02;
 class MyRectangle{
     public int length , width;
     public MyRectangle(){

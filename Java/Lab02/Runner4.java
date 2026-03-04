@@ -1,3 +1,4 @@
+package Lab02;
 class Circle{
     double radius;
     double PI;

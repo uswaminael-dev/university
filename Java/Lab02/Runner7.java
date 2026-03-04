@@ -1,3 +1,4 @@
+package Lab02;
 class Marks{
     double physics;
     double biology;

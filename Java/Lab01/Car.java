@@ -1,3 +1,4 @@
+package Lab01;
 class DemoCar{
     public String name;
     public String colour;

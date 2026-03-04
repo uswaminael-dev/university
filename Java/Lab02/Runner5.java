@@ -1,3 +1,4 @@
+package Lab02;
 class Account{
     double balance;
     int acc_num;

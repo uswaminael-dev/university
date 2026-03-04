@@ -1,3 +1,4 @@
+package Lab02;
 class rectangle{
     public int length , width;
     public int CalculateArea(){
