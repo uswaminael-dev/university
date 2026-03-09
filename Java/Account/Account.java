@@ -17,11 +17,13 @@ public class Account {
             this.balance = this.balance + amount;
             return balance;
         }
+        return balance;
     }
-    public int withdraw(double amount){
+    public double withdraw(double amount){
         if(amount>=0 && amount<=this.balance){
             this.balance = this.balance - amount;
             return this.balance;
         }
+        return balance;
     }
 }
